@@ -1,0 +1,7 @@
+base_channel_size: 64
+decoder_class: !!python/name:utility_classes.CocoDecoder ''
+encoder_class: !!python/name:utility_classes.CocoEncoder ''
+height: 256
+latent_dim: 64
+num_input_channels: 3
+width: 256
