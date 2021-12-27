@@ -8,3 +8,6 @@ The one who want to utilize shallow auto-encoder (3 hidden-layers) with CIFAR10 
  - pretrained weights for `latent_dim=384` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_384.ckpt>here</a><br>
 
 The one who wants to use deep auto-encoder (6 hidden layers) with MS COCO HD images, please use `COCOAutoencoder` class inside 'utility_classes.py' file and download modified COCO dataset from <a href=https://drive.google.com/file/d/11XYpqGEJMCphKiD6z3_NKrj5CRLwg8S9/view?usp>here</a>. Pretrained weights for COCO dataset have not been provided yet. However, user can freely start training of deep model from scratch for various latent dimensions starting from `latent_dim = 128,256,384,512` so on. As longer the latent dimension as higher the performance of auto-encoder. 
+# Reconstruction loss for different latent dimensions
+The experiment over shallow autoencoder model proves that larger latent dimension improves reconstruction ability of auto-encoder and reduces the loss function. Result of experiment can be seen in following graph. 
+<img src="https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/Figure_1.png" width=510>
