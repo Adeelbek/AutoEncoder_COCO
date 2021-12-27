@@ -5,5 +5,5 @@ The one who want to utilize shallow auto-encoder (3 hidden-layers) with CIFAR10 
  - pretrained weights for `latent_dim=64` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_64.ckpt >here</a>
  - pretrained weights for `latent_dim=128` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_128.ckpt>here</a>
  - pretrained weights for `latent_dim=256` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_256.ckpt>here</a>
- - pretrained weights for `latent_dim=384` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_384.ckpt>here</a>
+ - pretrained weights for `latent_dim=384` is <a href=https://github.com/Adeelbek/AutoEncoder_COCO/releases/download/AutoEncoder_COCO/cifar10_384.ckpt>here</a><br>
 The one who wants to use deep auto-encoder (6 hidden layers) with MS COCO HD images, please use `COCOAutoencoder` class inside 'utility_classes.py' file and download modified COCO dataset from <a href=https://drive.google.com/file/d/11XYpqGEJMCphKiD6z3_NKrj5CRLwg8S9/view?usp>here</a>
