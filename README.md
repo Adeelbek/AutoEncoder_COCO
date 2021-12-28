@@ -19,5 +19,4 @@ To run auto-encoder, user needs to select the data which will be used to train a
  - pytorch_lightning>=1.5
  - cython
 ```
-**Remark** *If you face any issue while inferencing or training on `COCO` based deep auto-encoder, please try to run `jupyter-notebook` file in the same environment. If you keep getting errors, then try to make sure you have the same dependencies as shown above list*. 
- 
+**Remark** *If you face any issue while inferencing or training on `COCO` based deep auto-encoder, please try to run `jupyter-notebook` file in the same environment. If you keep getting errors, then try to make sure you have the same dependencies as shown above list*.  
